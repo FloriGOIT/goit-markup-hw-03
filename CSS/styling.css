@@ -1,0 +1,78 @@
+body {font-family: 'Roboto';}
+header {background-color: #ECECEC;}
+main {background-color: #EEEEEE;}
+
+li {list-style-type: none;}
+address {font-style: normal;}
+
+.studio-link, .portofolio-link {text-decoration:none;
+                                color: #212121}
+.portofolio-link:hover,
+.portofolio-link:focus {color: #2196F3;}
+
+.website-logo-link {font-family: 'Raleway';
+                    font-size: 26px;
+                    font-weight: 700;
+                    line-height: 1.9;
+                    letter-spacing: 0.03em;
+                    text-align: left;
+                    text-decoration:none;}
+
+.first-part-name {color: #2196F3;}
+.second-part-name {color: #000;}
+
+nav {font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    text-align: left;}
+
+.button-list-portofolio:hover,
+.button-list-portofolio:focus {background-color: #2196F3; color: #FFFFFF;}
+
+.button-list-portofolio {cursor: pointer;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.6;
+        letter-spacing: 0.03em;
+        text-align:center;
+        color: #212121;
+        background-color: #f5f4fa;}
+
+
+.nav-li {color: #212121;}
+
+
+.nav-detailed-contact {color: #757575;}
+
+.photo-name {font-family: Roboto;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 2.25;
+            letter-spacing: 0.06em;
+            text-align: left;
+            color: #212121;}
+
+.photo-detail {font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.9;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: #757575;}
+
+footer {background-color:#2F303A;}
+
+.third-part-name {color: #FFFFFF;}
+
+.footer-details {font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: #FFFFFF}
+
+.footer-detail-contact {color: #FFFFFF;}
