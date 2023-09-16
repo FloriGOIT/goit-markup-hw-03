@@ -1,0 +1,120 @@
+body {font-family: 'Roboto', sans-serif;
+        color:var(--main-color)}
+ul {text-decoration: none;} 
+
+
+:root {--main-color: #2E2F42;
+       --heighlight-bgcolor: #404BBF;
+       --heighlight-color: white;
+       --ro400-s16-lh24: normal normal 400 16px/24px Roboto, sans-serif;
+       --ro500-s20-lh24: normal normal 500 20px/24px Roboto, sans-serif;
+       --ro500-s16-lh24: normal normal 500 16px/24px Roboto, sans-serif;
+       --logo-ra700-s18-lh21: normal normal 700 18px/21px 'Raleway', sans-serif;
+       --current-section: #4D5AE5;
+       --first-heading: normal normal 700 56px/60px Roboto, sans-serif;
+       --second-heading: normal normal 700 36px/40px Roboto, sans-serif;}
+ 
+/*HEADER/
+
+/*HEADER decoration*/
+
+/*LOGO decoration*/
+.logo {font: var(--logo-ra700-s18-lh21);
+        text-decoration: none;}
+
+.logo-web {color:#4D5AE5;}
+
+.logo-studio-header  {color: var(--main-color);}
+
+
+/*NAV decoration*/
+.nav-link {text-decoration: none;
+           font: var(--ro500-s16-lh24);}
+        
+.navigation-pages {list-style-type: none;}
+
+.nav-link {color: var(--main-color);}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {border-bottom: 1px;
+                  border-style: solid;} /*temporari border*/
+.current {color: var(--current-section);}
+
+
+
+/*ADDRESS decoration*/
+.header-address li {font: var(--ro400-s16-lh24);
+                    color:#434455;
+                    list-style-type: none;}
+.header-address li:hover,:focus {color: var(--heighlight-bgcolor);}
+
+
+.heading {color: white;
+        background-color: var(--main-color);
+        text-align: center;
+        height: 600px;}
+.first-header  {font: var(--first-heading);}
+.order-service-button {font:var(--ro500-s16-lh24);
+                        background-color: #4D5AE5;
+                        color: white;
+                        cursor: pointer;}
+
+/*MENU*/
+
+/*MENU BUTTONS*/
+.page-buttons {list-style-type: none;
+                cursor: pointer;}
+
+
+
+.buttons-line button {font: var(--ro500-s16-lh24);
+                        color: #4D5AE5;
+                        border: 1px solid #E7E9FC;
+                        border-radius: 4px;
+                        cursor: pointer;
+                        text-align: center;}
+
+.buttons-line button:hover,
+.buttons-line button:focus {background-color: var(--heighlight-bgcolor);
+                     color: var(--heighlight-color); }
+
+/*ALL-BUTTON description*/
+
+.business-info h2, .employees h2 {text-align: center;
+                                  font: var(--second-heading);}
+
+.cards-description {list-style-type: none;}
+
+.card-description-studio,
+.card-description-portofolio {background-color: white;} 
+
+.card-description-studio h3 {font: var(--ro500-s20-lh24);
+        color: var(--main-color);}
+
+.card-description-studio h4 {font: var(--ro400-s16-lh24);
+color: #434455;}
+
+.card-description-portofolio h3 {font: var(--ro500-s20-lh24);
+                                color: var(--main-color);}
+
+.card-description-portofolio h4 {font: var(--ro400-s16-lh24);
+                 color: #434455;}
+
+.card-description-portofolio {border-style: solid;
+                   border-width: 1px;
+                   border-color: #E7E9FC;
+                   width: 360px;
+                   margin: 10px 10px;/*temporary added*/}
+
+.employees {background-color: #F4F4FD;}
+
+/*FOOTER*/
+.portofolio-footer {background-color: var(--main-color);}
+.logo-web {color:#4D5AE5;
+           text-decoration: none;}
+.logo-studio-footer  {color: #F4F4FD;}
+
+.footer-description {font: var(--ro400-s16-lh24);
+                     color: #F4F4FD;}
+
