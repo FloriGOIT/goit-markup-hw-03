@@ -54,11 +54,16 @@ ul {text-decoration: none;}
         background-color: var(--main-color);
         text-align: center;
         height: 600px;}
+
 .first-header  {font: var(--first-heading);}
 .order-service-button {font:var(--ro500-s16-lh24);
                         background-color: #4D5AE5;
                         color: white;
-                        cursor: pointer;}
+                        cursor: pointer;}                       
+.order-service-button:hover,
+.order-service-button:focus {color: var(--heighlight-bgcolor);
+                            background-color: white;
+                            border-radius: 25px;}
 
 /*MENU*/
 
