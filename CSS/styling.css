@@ -26,6 +26,15 @@ h1,h2,h3,h4 {margin: 0px;}
        --first-heading: normal normal 700 56px/60px Roboto, sans-serif;
        --second-heading: normal normal 700 36px/40px Roboto, sans-serif;}
  
+/*Testing segment*/
+.testing {background-color: blueviolet;
+          color: greenyellow;
+          text-align: center;
+        padding: 188px 472px 292px 472px;} 
+        
+.comanda-cadouri {padding: 16px 32px;}
+
+
 /*HEADER/
 
 /*HEADER decoration*/
@@ -81,17 +90,20 @@ h1,h2,h3,h4 {margin: 0px;}
 .heading {box-sizing: border-box;
         color: white;
         background-color: var(--main-color);
-        text-align: center;}
+        text-align: center;
+        padding:188px 472px 184px 472px;}
         /*margin-left: 156px; temporary dislay*/
-        /*margin-right: 156px;} temporary dislay*/
+        /*margin-right: 156px; temporary dislay*/
 
-.first-header  {font: var(--first-heading);
-                padding:188px 472px 262px 472px;}
+.first-header  {font: var(--first-heading);}
+
 .order-service-button {font:var(--ro500-s16-lh24);
                         background-color: #4D5AE5;
                         color: white;
                         cursor: pointer;
-                        width: 169px;}
+                        padding: 16px 32px;
+                        width: 169px;
+                        margin-top: 48px;}
 
 .order-service-button:focus {color: var(--heighlight-bgcolor);
                             background-color: white;
