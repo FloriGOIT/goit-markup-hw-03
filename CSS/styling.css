@@ -5,11 +5,13 @@ container-header {margin-top: 24px;
         margin-bottom: 24px;}
 
 ul {text-decoration: none;}
+h1,h2,h3,h4 {margin: 0px;}
 
 
 .container {max-width: 1158px;
-           margin-left:156px;
-           margin-right: 156px;}
+            width: 100vw;
+            margin:0px auto;}
+
 .container li {text-decoration-line: none;}
 
 
@@ -76,33 +78,33 @@ ul {text-decoration: none;}
 .header-address li:hover,:focus {color: var(--heighlight-bgcolor);}
 
 
-.heading {color: white;
+.heading {box-sizing: border-box;
+        color: white;
         background-color: var(--main-color);
-        text-align: center;
-        height: 600px;
-        margin-left: 156px; /*temporary dislay*/
-        margin-right: 156px;} /*temporary dislay*/
+        text-align: center;}
+        /*margin-left: 156px; temporary dislay*/
+        /*margin-right: 156px;} temporary dislay*/
 
 .first-header  {font: var(--first-heading);
-                padding-left: 472px;
-                padding-right: 472px;
-                padding-top:188px;
-                margin:0px;}
+                padding:188px 472px 262px 472px;}
 .order-service-button {font:var(--ro500-s16-lh24);
                         background-color: #4D5AE5;
                         color: white;
                         cursor: pointer;
-                        width: 169px;
-                        margin-top: 48px;
-                        height: 56px;}                       
-.order-service-button:hover,
+                        width: 169px;}
+
 .order-service-button:focus {color: var(--heighlight-bgcolor);
                             background-color: white;
                             border-radius: 25px;}
+#header-border {border:1px solid #E7E9FC;}
 
 /*MENU*/
+
 .section {padding-top: 120px;
           padding-bottom: 120px;}
+#company-skills {padding-top: 120px;
+                 padding-bottom: 0px;}
+
 
 /*MENU BUTTONS*/
 #page-buttons {list-style-type: none;
@@ -128,33 +130,37 @@ ul {text-decoration: none;}
                 font: var(--second-heading);}
                 
 
-.cards-description {list-style-type: none;}
+.cards-description {list-style-type: none;
+                    display: flex;
+                    flex-direction: row;}
 
 .card-description-studio,
 .card-description-portofolio {background-color: white;} 
 
 .card-description-studio h3 {font: var(--ro500-s20-lh24);
-        color: var(--main-color);}
+                             color: var(--main-color);}
 
 .card-description-studio h4 {font: var(--ro400-s16-lh24);
-color: #434455;}
+                             color: #434455;}
 
 .card-description-portofolio h3 {font: var(--ro500-s20-lh24);
                                 color: var(--main-color);}
 
 .card-description-portofolio h4 {font: var(--ro400-s16-lh24);
-                 color: #434455;}
+                                 color: #434455;}
 
-.card-description-portofolio {border-style: solid;
-                   border-width: 1px;
-                   border-color: #E7E9FC;
-                   width: 360px;
-                   margin: 10px 10px;/*temporary added*/}
+/*.card-description-portofolio {border:1px solid #E7E9FC;} temporary added*/
 
 #employees {background-color: #F4F4FD;}
 
+#grid-container { display: grid;
+                  grid-template-columns: auto auto auto;}
+
 /*FOOTER*/
 .footer {background-color: var(--main-color);}
+.footer section {padding-top: 100px;
+        padding-bottom: 100px;
+        padding-right: 900px;}
 
 .logo-web {color:#4D5AE5;
            text-decoration: none;}
@@ -162,4 +168,7 @@ color: #434455;}
 
 .footer-description {font: var(--ro400-s16-lh24);
                      color: #F4F4FD;}
+/*.footer section {width: 264px;
+                 padding-top: 100px;
+                padding-left: 156px;}*/
 
