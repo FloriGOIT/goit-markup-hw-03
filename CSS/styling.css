@@ -1,8 +1,8 @@
 body {font-family: 'Roboto', sans-serif;
         color:var(--main-color);}
 
-container-header {margin-top: 24px;
-        margin-bottom: 24px;}
+/*#container-header {margin-top: 24px;
+                margin-bottom: 24px;}*/
 
 ul {text-decoration: none;}
 h1,h2,h3,h4 {margin: 0px;}
@@ -27,12 +27,15 @@ h1,h2,h3,h4 {margin: 0px;}
        --second-heading: normal normal 700 36px/40px Roboto, sans-serif;}
  
 /*Testing segment*/
-.testing {background-color: blueviolet;
+.testing-heading {background-color: blueviolet;
           color: greenyellow;
           text-align: center;
         padding: 188px 472px 292px 472px;} 
-        
 .comanda-cadouri {padding: 16px 32px;}
+
+.testing-cards-description {list-style-type: none;
+        padding-inline-start:0px;}
+.testing-description {margin-left:0px;}
 
 
 /*HEADER/
@@ -50,9 +53,11 @@ h1,h2,h3,h4 {margin: 0px;}
         text-decoration: none;
         width: 115px;}
 
-.logo-web {color:#4D5AE5;}
+.logo-web {color:#4D5AE5;
+           letter-spacing: 0.03em;}
 
-.logo-studio-header  {color: var(--main-color);}
+.logo-studio-header  {color: var(--main-color);
+                      letter-spacing: 0.03em;}
 
 
 /*NAV decoration*/
@@ -139,12 +144,16 @@ h1,h2,h3,h4 {margin: 0px;}
 
 #business-info h2, 
 #employees h2 {text-align: center;
-                font: var(--second-heading);}
+                font: var(--second-heading);
+                margin-bottom: 72px;}
                 
 
 .cards-description {list-style-type: none;
                     display: flex;
-                    flex-direction: row;}
+                    flex-direction: row;
+                    padding-inline-start: 0px;
+                    gap:24px;}
+#company-skills       
 
 .card-description-studio,
 .card-description-portofolio {background-color: white;} 
@@ -166,7 +175,8 @@ h1,h2,h3,h4 {margin: 0px;}
 #employees {background-color: #F4F4FD;}
 
 #grid-container { display: grid;
-                  grid-template-columns: auto auto auto;}
+                  grid-template-columns: auto auto auto;
+                  gap: 24px;}
 
 /*FOOTER*/
 .footer {background-color: var(--main-color);}
